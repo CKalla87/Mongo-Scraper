@@ -31,6 +31,9 @@ app.set("view engine", "handlebars");
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 
+//setting up the static directory
+app.use(express.static(path.join(__dirname, 'public')));
+
 //Assinging routes to application
 app.use(routes);
 
