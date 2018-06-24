@@ -1,0 +1,185 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin-bottom: 80px;
+    background-image: url("../images/newsmain.jpg");
+  }
+  
+  .mt-4, .my-4 {
+    background-color: #05111b !important;
+    opacity: 0.9;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3) !important;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3) !important;
+    position: absolute;
+    display: block;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .py-3 {
+    color: antiquewhite !important;
+  }
+
+  
+  .navbar {
+    margin-bottom: 0;
+    opacity: 0.9;
+  }
+
+  .bg-primary {
+    background-color: #05111b !important;
+  }
+  
+  .jumbotron {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    font-family: "Cormorant SC";
+    box-shadow: 10px 5px 20px 2px lightslategrey;
+  }
+  
+  .jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: auto;
+    background: linear-gradient(#333, black);
+    opacity: 0.7;
+  }
+  
+  .jumbotron .background-image {
+    height: 100%;
+    background-image: url("../images/space3.jpg");
+    background-size: cover;
+  }
+  
+  .jumbotron .caption {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .jumbotron .caption h1,
+  .jumbotron .caption p {
+    color: rgb(151, 181, 182);
+  }
+  
+  .jumbotron h1 {
+    font-size: 80px;
+    font-weight: 800;
+  }
+  
+  .jumbotron p {
+    font-size: 30px;
+  }
+  
+  .article-container {
+    padding-bottom: 25px;
+  }
+  
+  .card {
+    border-radius: 0;
+    box-shadow: 3px 3px 20px lightslategrey;
+    margin: 20px 0;
+    opacity: 0.9;
+  }
+
+  .card .card-header .btn {
+    background-color: rgb(82, 177, 214);
+  }
+  
+  .card .card-header {
+    background-color: #05111b;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .card .card-header h3 {
+    color: white;
+  }
+  
+  .card .card-header .btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .card .card-header .btn.delete {
+    right: 160px;
+  }
+  
+  .card .card-body {
+    font-size: 16px;
+  }
+  
+  .card .card-header .article-link {
+    color: white;
+    display: inline-block;
+    width: 80%;
+  }
+  
+  .footer > .container > p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 0;
+    font-weight: 800;
+    background: #0c7cd5;
+  }
+  
+  .navbar-nav > li > a.scrape-new {
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: 800;
+    color: white;
+  }
+  
+  .navbar-nav > li > a.scrape-new:hover {
+    background: #4caf50;
+  }
+  
+  .navbar-nav > li > a.scrape-new:active {
+    background: #e51c23;
+  }
+
+  .btn:not(:disabled):not(.disabled) {
+    background-color: rgb(86, 115, 153);
+  }
+  
+  .scrape-new {
+    cursor: pointer;
+  }
+  
+  .m-top-80 {
+    margin-top: 80px;
+  }
+  
+  textarea {
+    padding: 10px;
+    resize: none;
+    width: 100%;
+  }
+  
+  .bootbox-body .btn {
+    float: right;
+    margin: 5px;
+  }
+  
+  .note.list-group-item .btn {
+    position: relative;
+    bottom: 10px;
+  }
+  
