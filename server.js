@@ -21,8 +21,6 @@ app.use(express.static("public"));
 //setting up favicon middleware
 app.use(favicon(path.join(__dirname, 'public', 'assets/Images/favicon.ico')));
 
-
-
 //Using handlebars with application
 app.engine("handlebars", exphbs({ defaultLayout: "main"}));
 app.set("view engine", "handlebars");
@@ -30,9 +28,6 @@ app.set("view engine", "handlebars");
 //Using bodyParser with application
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
-
-//setting up the static directory
-app.use(express.static(path.join(__dirname, 'public')));
 
 //Assinging routes to application
 app.use(routes);
